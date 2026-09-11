@@ -1,5 +1,7 @@
 # StationsAnywhere
 
+![Banner](banner.png)
+
 A mod for [Sector Space](https://store.steampowered.com/app/3978250/Sector_Space/)
 that adds a window listing every sector the game marks as a special zone
 (station-restricted) and lets you grant a station-deploy permit to each one via
