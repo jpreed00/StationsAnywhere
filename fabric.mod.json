@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "stationsanywhere",
+  "version": "1.0.0",
+  "name": "Stations Anywhere",
+  "description": "Adds a window that lists the sectors the game marks as special zones (station-restricted) and lets you enable station deployment (and claiming/repair) in each one via a checkbox. Undiscovered zones show masked. Toggles persist per world; unchecking never removes stations you have already deployed.",
+  "environment": "*",
+
+  "mixins": [
+    "stationsanywhere.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "java": ">=25",
+    "sector-space": ">=0.6.0.2"
+  }
+}

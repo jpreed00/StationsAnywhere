@@ -1,0 +1,15 @@
+# Build artifacts
+/build/
+
+# Local permit-data written at runtime
+/stationsanywhere_data/
+
+# Machine-specific build file (hardcoded JDK path, Windows-only)
+/Makefile
+
+# OS / editor cruft
+Thumbs.db
+.DS_Store
+*.swp
+.idea/
+.vscode/
